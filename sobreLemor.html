@@ -30,22 +30,107 @@
 }
 
 .servicioses.center {
-    width: 100%;
+    
 }
 
 .servicios {
   padding: 0 20px;
-  
+  width: 700px;
 }
+
+@media (max-width:680px){
+  .servicios {
+    padding: 0 20px;
+    width: 300px;
+  }
+
+  .quali {
+    width: 90%;
+    font-size: 20px;
+  }
+
+}
+
+@media ( min-width: 681px ) and ( max-width: 768px ){
+  .servicios {
+    padding: 0 20px;
+    width: 500px;
+  }
+
+  .quali {
+    width: 90%;
+    font-size: 20px;
+  }
+}
+
+@media ( min-width: 769px ) and ( max-width: 1168px ){
+  .servicios {
+    padding: 0 20px;
+    width: 500px;
+  }
+
+  .quali {
+    width: 90%;
+    font-size: 20px;
+  }
+}
+
+@media ( min-width: 1169px ) and ( max-width: 1408px ){
+  .servicios {
+    padding: 0 20px;
+    width: 600px;
+  }
+
+  .quali {
+    width: 90%;
+    font-size: 20px;
+  }
+}
+
+@media ( min-width: 1409px ) and ( max-width: 1440px ){
+  .servicios {
+    padding: 0 20px;
+    width: 700px;
+  }
+
+  .quali {
+    width: 90%;
+    font-size: 20px;
+  }
+}
+
+@media ( min-width: 1409px ) and ( max-width: 1440px ){
+  .servicios {
+    padding: 0 20px;
+    width: 700px;
+  }
+
+  .quali {
+    width: 90%;
+    font-size: 25px;
+  }
+}
+
+@media ( min-width: 1441px ){
+  .servicios {
+    padding: 0 20px;
+    width: 1000px;
+  }
+
+  .quali {
+    width: 90%;
+    font-size: 30px;
+  }
+}
+
+
+
 
 .servicios-text {
   padding-left: 50px;
   padding-right: 50px;
 }
-.quali {
-  width: 87%;
-  font-size: 30px;
- }
+
 
  
       
@@ -347,6 +432,7 @@ $('.center').slick({
   centerPadding: '300px',
   slidesToShow: 1,
   dots:true,
+  variableWidth: true,
   arrows:false,
   responsive: [
     {
